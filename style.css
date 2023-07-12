@@ -70,7 +70,7 @@ header {
 .feat_single_img{
     padding: 100px 30px 0px 30px;
     margin: 0 10px;
-    border-radius: 300px 300px 0 0;
+    border-radius: 300px 300px 10px 10px
 }
 .feat_single_img.img_1{
     background-color: rgb(244, 225, 245);
@@ -81,12 +81,7 @@ header {
 .feat_single_img.img_3{
     background-color: rgb(215, 240, 232);
 }
-.featured_image_caption{
-    display: flex;
-}
-.featured_caption_single{
-    width: 33%;
-}
+
 /* featured end */
 .single_imgs{
     padding: 5px;
@@ -159,10 +154,11 @@ header {
 /* latest style end */
 
 .mid_text{
-    width: 30%;
+    width: 40%;
     margin: auto;
     text-align: center;
-    padding: 50px 10px ;
+    padding: 10px 10px;
+    font-size: 40px;
 
 }
 #mid_text{
