@@ -1,4 +1,240 @@
-body 
-{
-    background-color: yellow;
+*{
+    margin: 0;
+    padding: 0;
+}
+.w50{
+    width: 50%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#heading_text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.head_mid_text{
+    font-size: 15px;
+    padding: 20px 0;
+    color: dimgray;
+}
+
+
+header {
+    background-color: #fceef1;
+    padding: 15% 9% 0% 7%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#head_text h1{
+    font-size: 50px;
+}
+#head_img{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#head_img img{
+    width: 70%;
+    height: 60%;
+}
+.pink_btn{
+    background-color: #f15776;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #e2e9ee;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* featured style */
+.featured_flower{
+    padding: 0 10%;
+}
+.featured_imgs{
+    display: flex;
+    padding: 50px 40px;
+    justify-content: center;
+}
+.feat_single_img{
+    padding: 100px 30px 0px 30px;
+    margin: 0 10px;
+    border-radius: 300px 300px 0 0;
+}
+.feat_single_img.img_1{
+    background-color: rgb(244, 225, 245);
+}
+.feat_single_img.img_2{
+    background-color: rgb(201, 226, 237);
+}
+.feat_single_img.img_3{
+    background-color: rgb(215, 240, 232);
+}
+.featured_image_caption{
+    display: flex;
+}
+.featured_caption_single{
+    width: 33%;
+}
+/* featured end */
+.single_imgs{
+    padding: 5px;
+}
+/* Hot deals style */
+#Hot_Deals {
+    background-color: #c0a5b1;
+    text-align: center;
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+}
+.hot_text{
+    font-size: 25px;
+    
+}
+#Hot_img{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+#Hot_img img{
+    width: 65%;
+}
+.hot_mid_text{
+    font-size: 15px;
+    text-align: center;
+    color: dimgray;
+    padding: 20px 0;
+}
+.sign_btn{
+    background-color: #f15776;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #e2e9ee;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* hot deals end */
+
+/* insta style */
+.insta_block{
+    padding: ;
+}
+.insta_block h2{
+        margin-top: 50px;
+        font-size: 40px;
+}
+.insta_imgs{
+    display: flex;
+    padding: 50px 40px;
+    justify-content: center;
+
+}
+.insta_img_single{
+    padding: 5px;
+}
+/* insta style end */
+/* latest style */
+.latest_deals{
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-size: cover;
+    margin: 50px 200px;
+    padding: 100px 40px;
+    justify-content: center;
+}
+/* latest style end */
+
+.mid_text{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 10px ;
+
+}
+#mid_text{
+    margin: auto;
+    text-align: center;
+}
+#ground_text{
+    font-size: 13px;
+    text-align: center;
+    color: dimgray;
+
+    
+}
+
+.ground_text{
+    font-size: 16px;
+   text-align: center;
+    color: rgb(136, 132, 132);
+    width: 40%;
+    margin: auto;    
+}
+
+    .form {   
+    background-color: #f82d59;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #e2e9ee;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.subscribe{
+    text-align: center;
+}
+#email{
+    width:500px ;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-style: none;
+    margin-right: 10px;
+
+}
+#email::placeholder{
+    font-size: 15px;
+}
+.subs_btn{
+    background-color: #f82d59;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #e2e9ee;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text_pink{
+    color: #f15776;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align:center;
+    margin: auto;
+    padding: 100px;
+
+}
+.footer_mid_text{
+    padding: 30px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
 }
